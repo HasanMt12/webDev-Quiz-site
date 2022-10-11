@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Header = () => {
+const chart = () => {
     return (
         <div>
-            <h1>this is header</h1>
+            <h1>this is chart</h1>
         </div>
     );
 };
 
-export default Header;
+export default chart;
