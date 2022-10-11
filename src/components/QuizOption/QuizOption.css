@@ -9,19 +9,17 @@
     --box-shadow-inset: .4rem .4rem 1rem #ccc inset,
         -.4rem -.4rem 1rem #fff inset;
 }
-
-.div-shadow {
-    box-shadow: var(--box-shadow);
+.radio-div{
     border-radius: 1rem;
-    
     -webkit-border-radius: 1rem;
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    background-color:azure;
+    color: darkcyan;
 }
-
-.div-shadow:hover {
-    box-shadow: .2rem .2rem 1rem #ccc,
-        -.2rem -.2rem 1rem #fff;
+.radio-div:hover{
+    box-shadow: var(--box-shadow-inset);
+} .radio-btn:hover {
+    
+    cursor: pointer;
 }
