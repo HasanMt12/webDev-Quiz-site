@@ -1,0 +1,29 @@
+.nav-style {
+    border-radius: 1rem;
+    
+    padding: 20px;
+    box-shadow: var(--box-shadow);
+    
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: rgb(233, 236, 238);
+}
+
+.navbar-a {
+    border-radius: 1rem;
+    font-size: 1rem;
+    margin: 5px;
+    padding: 10px;
+    box-shadow: var(--box-shadow);
+    color: var(--black);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.navbar-a:hover {
+    box-shadow: var(--box-shadow-inset);
+}
