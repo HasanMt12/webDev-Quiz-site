@@ -1,9 +1,12 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../components/Home";
-
 import Main from "../components/layouts/Main";
-import Chart from "../components/Chart"
+
 import ErrorPage from "../components/ErrorPage";
+import QuizDetails from "../components/QuizDetails/QuizDetails";
+
+import Blog from "../components/Blog/Blog";
+import Statics from "../components/Statics.js/Statics";
 
 
 const router = createBrowserRouter([
@@ -19,10 +22,23 @@ const router = createBrowserRouter([
             },
             element: <Home></Home>,
         },
+        
         {
-            path: '/Chart',
-            element: <Chart></Chart>
-        }
+            path: '/card/:cardId',
+            loader: async ({params})=> {
+                return fetch(`https://openapi.programming-hero.com/api/quiz/${params.cardId}`)
+            },
+            element: <QuizDetails></QuizDetails>
+        },
+        {
+            path: '/statics',
+            element: <Statics></Statics>
+        },
+        {
+            path: '/blog',
+            element: <Blog></Blog>
+        },
+
     ]
   },
 ])

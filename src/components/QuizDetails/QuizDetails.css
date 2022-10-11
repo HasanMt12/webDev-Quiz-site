@@ -1,0 +1,24 @@
+.container {
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    width: 600px;
+    margin: 21px auto;
+    padding: 8px;
+}
+
+.main-div {
+   
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    width: 570px;
+    margin: 21px auto;
+    padding: 8px;
+   
+}
+
+.quizSubject-name {
+    font-size: large;
+    margin-bottom: 5px;
+    color: rgb(46, 90, 129);
+    font-weight: 600;
+}
