@@ -19,7 +19,9 @@
 }
 .radio-div:hover{
     box-shadow: var(--box-shadow-inset);
-} .radio-btn:hover {
+    cursor:pointer
+} 
+.radio-btn:hover {
     
     cursor: pointer;
 }
