@@ -4,9 +4,8 @@
 
 ## Live Link
 Hosted in Netlify ->[QuizPlatform](https://aesthetic-crisp-244e61.netlify.app/statistics)
-##Site view
- ![github 3](https://postimg.cc/9zyFkMtr)
-
+##site view
+![userphoto](https://postimg.cc/9zyFkMtr)
 
 ## Live Link
 Hosted in Netlify -> [Quiz on Quark](https://whimsical-bunny-1542da.netlify.app/)
