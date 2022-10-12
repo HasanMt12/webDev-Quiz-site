@@ -1,4 +1,7 @@
-
+body{
+  background-color: rgb(194, 208, 221);
+  padding:0 50px ;
+}
 .App {
   background-color: aliceblue;
 }

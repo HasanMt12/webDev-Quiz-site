@@ -22,7 +22,7 @@ const Header = () => {
         <ul className="flex items-center hidden space-x-8 lg:flex ">
           <li className='navbar-a'>
             <NavLink
-              to="/home"
+              to="/"
               aria-label="home"
               title="home"
               className={({ isActive, }) =>
@@ -37,7 +37,7 @@ const Header = () => {
           <li className='navbar-a'>
             <NavLink
               to="/statistics"
-              aria-label="Statistics"
+              aria-label="statistics"
               title="Statistics"
               className={({ isActive }) =>
                 isActive
@@ -140,9 +140,9 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        to="/cart"
-                        aria-label="Cart"
-                        title="Cart"
+                        to="/statistics"
+                        aria-label="statistics"
+                        title="statistics"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                       >
                         <div className="relative py-3">
@@ -153,7 +153,7 @@ const Header = () => {
                     </li>
                     <li>
                       <Link
-                        to="/about"
+                        to="/blog"
                         aria-label="About Us"
                         title="About Us"
                         className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
