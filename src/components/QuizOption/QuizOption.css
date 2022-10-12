@@ -15,7 +15,7 @@
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    color: darkcyan;
+    color: rgb(1, 10, 10);
 }
 .radio-div:hover{
     box-shadow: var(--box-shadow-inset);

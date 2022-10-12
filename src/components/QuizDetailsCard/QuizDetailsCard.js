@@ -21,15 +21,15 @@ const QuizDetailsCard = ({questionArr}) => {
     return (
        <div>
       <div className="flex justify-between">
-        <div dangerouslySetInnerHTML={{ __html: question }} className="mb-4 mt-5"></div>
+        <div dangerouslySetInnerHTML={{ __html: question }} className="text-2xl text-blue-700 text-bold mb-4 mt-5"></div>
         <div>
-        <button className="justify-end" onClick={() => showButtonHandler(correctAnswer)}>
+        <button className="justify-end text-stone-900 text-2xl" onClick={() => showButtonHandler(correctAnswer)}>
           {" "}
           <FaEye />{" "}
         </button>
         </div>
       </div>
-      <div className="grid grid-cols-1 gap-4  p-4 bg-white div-shadow">
+      <div className="grid grid-cols-1 gap-4  p-4 bg-white div-shadow text-bold ">
         {options.map((option) => (
           <QuizOption option={option} handleClick={handleClick}></QuizOption>
         ))}

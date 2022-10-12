@@ -9,11 +9,11 @@ const QuizDetails = () => {
     console.log(questions)
     
     return (
-        <div className='container'>
+        <div className='container navbar-a '>
             <div className='main-div'>
                 <div>
                     <h1 className='quizSubject-name'>Quiz of {name}</h1> 
-                    <p>Total Question {total}</p>
+                    <p className='text-sky-700'>Total Question {total}</p>
                 </div>
                
            </div>

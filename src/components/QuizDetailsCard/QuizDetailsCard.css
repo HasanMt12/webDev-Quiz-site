@@ -1,8 +1,5 @@
 :root {
-    --yellow: #f5b041;
-    --black: #444;
-    --light-color: #777;
-    --bg-color: #e6e6e6;
+    
     --border: .1rem solid rgba(0, 0, 0, .2);
     --box-shadow: .4rem .4rem 1rem #ccc,
         -.4rem -.4rem 1rem #fff;
@@ -18,10 +15,11 @@
     -moz-border-radius: 1rem;
     -ms-border-radius: 1rem;
     -o-border-radius: 1rem;
-    background-color:azure;
+    background-color:rgb(22, 77, 77);
 }
 
 .div-shadow:hover {
     box-shadow: .2rem .2rem 1rem #ccc,
         -.2rem -.2rem 1rem #fff;
+        
 }
