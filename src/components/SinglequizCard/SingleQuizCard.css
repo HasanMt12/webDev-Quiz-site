@@ -1,0 +1,15 @@
+.custom-btn {
+    border-radius: 1rem;
+    box-shadow: var(--box-shadow);
+    color: var(--black);
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    background-color: aliceblue;
+}
+
+.custom-btn:hover {
+    box-shadow: var(--box-shadow-inset);
+    background-color: azure;
+}

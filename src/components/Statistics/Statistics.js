@@ -11,7 +11,7 @@ import {
     Legend,
     ResponsiveContainer,
 } from "recharts";
-import { render } from '@testing-library/react';
+
 
 const Statistics = () => {
    const [charts, setCharts] = useState([]);
@@ -39,8 +39,10 @@ const Statistics = () => {
 
    
     return (
+      <div >
+        <h1 className='text-center fw-bold text-2xl underline'> Quiz analysis </h1>
       
-      <ResponsiveContainer width="100%" height={500}>
+      <ResponsiveContainer  width="100%" height={500}>
         <LineChart
           width={1000}
           height={500}
@@ -55,14 +57,15 @@ const Statistics = () => {
           {/* <Line type="monotone" dataKey="Quiz" stroke="#82ca9d" /> */}
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="name" />
-          <YAxis dataKey="id" />
+          <YAxis />
           <Tooltip />
           <Legend />
          <Line type="monotone" dataKey="id" stroke="#8884d8" activeDot={{ r: 8 }} />
           <Line type="monotone" dataKey="Quiz" stroke="#82ca9d" />
         </LineChart>
       </ResponsiveContainer>
-      
+      </div>
+     
     );
 };
 
