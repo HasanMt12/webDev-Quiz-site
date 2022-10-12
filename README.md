@@ -26,7 +26,7 @@ Tailwind Components ->
 Fav-Icon -> [icon-icons](https://icon-icons.com/)
 
 Svg Photos -> [lottify](https://accounts.lottiefiles.com/)
- ##Feture 
+ ## Feture 
  * you can practice 4 Topics Quiz  
 *  some Interview Question 
 * topic base quiz charts
