@@ -17,7 +17,7 @@ const Blog = () => {
                             <div className="modal" id="my-modal-1">
                             <div className="modal-box">
                                 <h3 className="font-bold text-lg">What 's the purpose of React Router?</h3>
-                                <p className="py-4">React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.The application will contain three components: home component, about a component, and contact component. We will use React Router to navigate between these components.</p>
+                                <p className="py-4">React Router is a standard library for routing in React.  It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.The application will contain three components: home component, about a component, and contact component. We will use React Router to navigate between these components.</p>
                                 <div className="modal-action">
                                 <a href="#" className="btn">okay</a>
                                 </div>
