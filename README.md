@@ -3,11 +3,12 @@
 
 
 ## Live Link
-Hosted in Netlify ->[QuizPlatform](https://aesthetic-crisp-244e61.netlify.app)
+
+Hosted in Netlify -> [Quiz on Quark](https://whimsical-bunny-1542da.netlify.app/)
 
 ## Site view![screencapture-whimsical-bunny-1542da-netlify-app-2022-10-12-23_28_56](https://user-images.githubusercontent.com/108423290/195411197-2d61d65f-afe3-448d-bbe9-6169031cc65e.png)
 
-Hosted in Netlify -> [Quiz on Quark](https://whimsical-bunny-1542da.netlify.app/)
+
 
 ## Context API
 
